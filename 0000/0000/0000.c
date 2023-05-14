@@ -164,7 +164,7 @@ int main(void)
 	char b;
 
 	printf("수식을 한줄로 띄어쓰기로 입력하세요 : ");
-	scanf_s("%d %c %d", &a, &b, &c);
+	scanf_s("%d %c %d", &a, &b, 1, &c);
 
 	switch (b)
 	{

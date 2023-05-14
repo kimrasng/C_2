@@ -1,1 +1,5 @@
-﻿  0000.vcxproj -> D:\kimrasng\KG_C.git\0000\x64\Debug\0000.exe
+﻿  0000.c
+D:\kimrasng\KG_C.git\0000\0000\0000.c(184,11): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '%'이(가) 있습니다.
+D:\kimrasng\KG_C.git\0000\0000\0000.c(184,48): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\kimrasng\KG_C.git\0000\0000\0000.c(184,48): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+  0000.vcxproj -> D:\kimrasng\KG_C.git\0000\x64\Debug\0000.exe
