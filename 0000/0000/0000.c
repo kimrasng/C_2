@@ -24,7 +24,44 @@ int main(void)
 */
 
 //	예제 모음02
+
+//#include	<stdio.h>
+//
+//int main(void)
+//{
+//	int data;
+//	printf("정수를 입력하세요 ==> ");
+//	scanf_s("%d", &data);
+//	printf("10진수 ==> %d\n", data);
+//	printf("16진수 ==> %x\n", data);
+//	printf("16진수 ==> %o\n", data);
+//
+//	return 0;
+//}
+
+
 //	예제 모음03
+#include	<stdio.h>
+
+int main(void)
+{
+	printf("int 형의 크기 \t\t\t ==> %d\n", sizeof(int));
+	printf("unsigned int 형의 크기 \t\t ==> %d\n", sizeof(unsigned int));
+	printf("short 형의 크기 \t\t ==> %d\n", sizeof(short));
+	printf("unsigned short 형의 크기 \t ==> %d\n", sizeof(unsigned short));
+	printf("long int 형의 크기 \t\t ==> %d\n", sizeof(long int));
+	printf("unsigned long int 형의 크기 \t ==> %d\n", sizeof(unsigned long int));
+	printf("float 형의 크기 \t\t ==> %d\n", sizeof(float));
+	printf("double 형의 크기 \t\t ==> %d\n", sizeof(double));
+	printf("long double 형의 크기 \t\t ==> %d\n", sizeof(long double));
+	printf("char 형의 크기 \t\t\t ==> %d\n", sizeof(char));
+	printf("unsigned char 형의 크기 \t ==> %d\n", sizeof(unsigned char));
+
+
+	return 0;
+}
+ 
+ 
 //	예제 모음04
 //	예제 모음05
 //	예제 모음06
