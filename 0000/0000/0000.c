@@ -156,38 +156,38 @@ int main(void)
 */
 
 //	예제 모음06
-#include	<stdio.h>
-
-int main(void)
-{
-	int a, c;
-	char b;
-
-	printf("수식을 한줄로 띄어쓰기로 입력하세요 : ");
-	scanf_s("%d %c %d", &a, &b, 1, &c);
-
-	switch (b)
-	{
-		case '+':
-			printf("%d + %d = %d 입니다.\n", a, c, a + c);
-			break;
-		case '-':
-			printf("%d - %d = %d 입니다.\n", a, c, a - c);
-			break;
-		case '*':
-			printf("%d * %d = %d 입니다.\n", a, c, a * c);
-			break;
-		case '/':
-			printf("%d / %d = %d 입니다.\n", a, c, a / c);
-			break;
-		case '%':
-			printf("%d % %d = %d 입니다.\n", a, c, a % c);
-			break;
-
-	default:
-		printf("연산자를 잘못 입력했습니다.");
-	}
-}
+//#include	<stdio.h>
+//
+//int main(void)
+//{
+//	int a, c;
+//	char b;
+//
+//	printf("수식을 한줄로 띄어쓰기로 입력하세요 : ");
+//	scanf_s("%d %c %d", &a, &b, 1, &c);
+//
+//	switch (b)
+//	{
+//		case '+':
+//			printf("%d + %d = %d 입니다.\n", a, c, a + c);
+//			break;
+//		case '-':
+//			printf("%d - %d = %d 입니다.\n", a, c, a - c);
+//			break;
+//		case '*':
+//			printf("%d * %d = %d 입니다.\n", a, c, a * c);
+//			break;
+//		case '/':
+//			printf("%d / %d = %d 입니다.\n", a, c, a / c);
+//			break;
+//		case '%':
+//			printf("%d % %d = %d 입니다.\n", a, c, a % c);
+//			break;
+//
+//	default:
+//		printf("연산자를 잘못 입력했습니다.");
+//	}
+//}
 
 //	예제 모음07
 //	예제 모음08
@@ -198,6 +198,22 @@ int main(void)
 //	예제 모음13
 //	예제 모음14
 //	예제 모음15
+#include	<stdio.h>
+
+int main(void)
+{
+	int i;
+	for (i = 0; i < 128; i++)
+	{
+		if (i % 16 == 0)
+		{
+			printf("--------------------\n");
+			printf("10진수	16진수	문자\n");
+			printf("--------------------\n");
+		}
+		printf("%5d %7x %7c \n", i, i, i);
+	}
+}
 //	예제 모음16
 //	예제 모음17
 //	예제 모음18
