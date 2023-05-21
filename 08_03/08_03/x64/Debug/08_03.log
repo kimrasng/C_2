@@ -1,0 +1,4 @@
+﻿  08_03.c
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6006: "CL.exe"이(가) 종료되었습니다(코드: 2).
+D:\kimrasng\KG_C.git\08_03\08_03\08_03.c(55,6): error C2086: 'int aa[3][4]': 재정의
+D:\kimrasng\KG_C.git\08_03\08_03\08_03.c(51,6): message : 'aa' 선언을 참조하십시오.
